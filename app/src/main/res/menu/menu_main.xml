@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="stockwidget.com.stockwidget.MainActivity">
+    <item android:id="@+id/action_legal_notice"
+          android:title="Legal notice"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action_clear_data"
+          android:title="Clear data"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+</menu>

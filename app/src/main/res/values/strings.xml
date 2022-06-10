@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Networth</string>
+    <string name="action_legal_notice">Legal notice</string>
+    <string name="action_clear_data">Clear data</string>
+</resources>

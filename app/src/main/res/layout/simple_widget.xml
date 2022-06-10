@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_centerHorizontal="true"
+              android:layout_gravity="center"
+
+>
+
+
+
+    <TextView
+            android:id="@+id/networth-loading-textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Loading..."
+            android:textSize="36dp"
+            android:fontFamily="sans-serif-light"
+            android:textFontWeight="200"
+            android:textColor="#FFF"/>
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text=""
+            android:textSize="64dp"
+            android:fontFamily="sans-serif-light"
+            android:textFontWeight="200"
+            android:textColor="#FFF"/>
+
+
+</LinearLayout>
